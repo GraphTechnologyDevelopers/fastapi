@@ -27,7 +27,7 @@ jobs:
         id: docs
         with:
           supermodel-api-key: ${{ secrets.SUPERMODEL_API_KEY }}
-          base-url: https://repos.supermodeltools.com
+          base-url: https://repos.supermodeltools.com/fastapi
           max-source-files: "500"
 
       - uses: actions/configure-pages@v5
